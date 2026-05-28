@@ -1,0 +1,19 @@
+let x=[1,2,3];
+let y=Array.isArray(x);
+console.log(y);
+
+let s=Array.isArray("a")
+console.log(s);
+
+let result=Array.isArray([1,2,3,4])
+console.log(result);
+
+//every && some
+//each element should pass
+let b=[11,20,23].every(s=>s>10);
+console.log(b);
+
+
+//atleast one must pass
+let c=[11,20,23].some(s=>s>20);
+console.log(c);
