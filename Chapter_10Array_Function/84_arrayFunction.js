@@ -16,7 +16,7 @@ console.log(scores2);
 let numbers=new Array(100,200,300,500,300); //creating the array
 console.log(numbers)
 
-let test=Array.of(10,20,30,50)
+let test=Array.of(10,20,30,50) //Creating the array
 console.log(test)
 
 //array form only for characters not numbers

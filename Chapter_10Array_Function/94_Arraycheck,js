@@ -10,7 +10,7 @@ console.log(result);
 
 //every && some
 //each element should pass
-let b=[11,20,23].every(s=>s>10);
+let b=[11,20,23].every(s=>s>20);
 console.log(b);
 
 

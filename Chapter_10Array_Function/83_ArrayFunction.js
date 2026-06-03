@@ -1,4 +1,4 @@
-//The **index** is the row number (zero-based: the first row is `0` ).
+//The **index** is the row number (zero-based: the first values is 0th index
 //**Adding/removing** rows is `push` /`pop`  (at the end) or `shift` /`unshift`  (at the start) —
 //  like appending a new test case or pulling the next one off a queue.
 // Searching (includes, indexOf, find) is scanning the sheet for a value.
@@ -6,7 +6,7 @@
 // **Transforming** (`map` , `filter` , `reduce` ) is producing a new sheet from the old one without touching the original
 // — which keeps your test data immutable and predictable.
 
-let fruits=[]; //balnk array/emapty array
+let fruits=[]; //balnk array/emapty  array
 let fruits_fresh=["bananan","apple","mango"];//length-3 index-0,1,2
 console.log(fruits_fresh.length)
 let arr=[10,20,30,40];//0-3 length-4

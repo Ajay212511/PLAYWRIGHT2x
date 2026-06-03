@@ -1,8 +1,9 @@
 
 function normalizeJsBasicsLabel(label) {
 let normalized =label.trim().toLowerCase().replace(/[^a-z0-9\s]/g,"").replace(/\s+/g,"-").replace(/^-+|-+$/g,"");
+    //let Result=normalized.addPrefix("js-basic");
   console.log(`js-basic-${normalized}`);
- return;
+ //return;
 }
 normalizeJsBasicsLabel("     Ajay  Input  ");
 normalizeJsBasicsLabel("User Profile: Edit!")
