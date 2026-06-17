@@ -8,5 +8,4 @@ function inner (){
     inner();
     console.log(y);
 }
-}
-outer();
+} 

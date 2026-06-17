@@ -4,8 +4,12 @@ function greet(){
     console.log("Hi How are you");
 }
 
-//This is a basic type f function ,Which means no argument and no retun type
+//This is a basic type  function ,Which means no argument and no retun type
 
-greet(); //Calling the function
+greet(); //Calling the function 
+
+//Arguments->During the calling the function 
+//Parameter->During the initialization fution
+
 
 

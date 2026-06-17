@@ -7,4 +7,4 @@ function setupConfig(){
 
 setupConfig();
 console.log(env);
-console.log(timeout);
+console.log(timeout);//Refrence error bcz timeout is not defined //local variable inside the function
