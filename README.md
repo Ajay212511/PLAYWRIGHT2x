@@ -48,6 +48,7 @@ PLAYWRIGHT2x/
 ├── Chapter_16_PROMISES/           # Promises, Promise.all, error handling
 ├── Chapter_17_Playwright/         # Playwright browser automation (npm)
 ├── Chapter_18_Asnc_Await/         # Async/await patterns
+├── chapter_20_TypeScript_Basics/  # ES6 Modules - Export & Import
 ├── IQ_TestIQA/                    # Interview questions & test simulations
 ├── string_cheat_sheet.md          # Python string methods reference
 └── README.md                      # This file
@@ -138,6 +139,13 @@ PLAYWRIGHT2x/
 - **Await** — Waiting for promises
 - **Error Handling** — try/catch/finally with async/await
 - **Real-world Examples** — Practical async/await patterns
+
+### ES6 Modules
+- **Default Exports** — Single export with `export default`
+- **Named Exports** — Multiple exports with `export function`
+- **Named Imports** — Importing specific exports
+- **Default Imports** — Importing default exports
+- **Export & Import** — Complete ES6 module system
 
 ### Playwright
 - **Setup** — npm project with Playwright dependency
@@ -378,6 +386,17 @@ npm install
 | `164_Async_ex.js` | Async Examples | Done |
 | `165_Async_await.js` | Async/Await | Done |
 | `166_AA_P.js` | Async/Await Practice | Done |
+
+### chapter_20_TypeScript_Basics — ES6 Modules
+
+| File | Topic | Status |
+|------|-------|--------|
+| `168_Export_Import.js` | Export & Import | Done |
+| `169_utils.js` | Utils with Default Export | Done |
+| `170_Logger.js` | Import Default & Named Exports | Done |
+| `logger.js` | Default & Named Exports | Done |
+| `testutils.js` | Utils with Named Export | Done |
+| `utils.js` | Utils with Named Export | Done |
 
 ### IQ_TestIQA — Interview Questions
 
