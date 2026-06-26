@@ -22,6 +22,8 @@ A comprehensive JavaScript learning repository — from fundamentals through asy
   - [Promises](#promises)
   - [Async/Await](#asyncawait)
   - [Playwright](#playwright)
+  - [OOP](#oop--object-oriented-programming)
+  - [TypeScript](#typescript)
 - [How to Run](#how-to-run)
 - [Learning Progress](#learning-progress)
 - [Author](#author)
@@ -48,9 +50,15 @@ PLAYWRIGHT2x/
 ├── Chapter_16_PROMISES/           # Promises, Promise.all, error handling
 ├── Chapter_17_Playwright/         # Playwright browser automation (npm)
 ├── Chapter_18_Asnc_Await/         # Async/await patterns
-├── chapter_20_TypeScript_Basics/  # ES6 Modules - Export & Import
+├── chapter_20_OOPS/               # OOP basics — ES6 Modules, Export & Import
+├── Chapter_21_Class_Object/       # Classes & objects
+├── Chapter_22_Inheritance/        # Inheritance (single, multi-level, hierarchical)
+├── 24_Encapsulation/              # Encapsulation with getters/setters
+├── Chapter_25_Polymorphism/       # Method overriding
+├── chapter_26_Typscript/          # TypeScript basics & types
 ├── IQ_TestIQA/                    # Interview questions & test simulations
 ├── string_cheat_sheet.md          # Python string methods reference
+├── tsconfig.json                  # TypeScript configuration
 └── README.md                      # This file
 ```
 
@@ -140,12 +148,20 @@ PLAYWRIGHT2x/
 - **Error Handling** — try/catch/finally with async/await
 - **Real-world Examples** — Practical async/await patterns
 
-### ES6 Modules
-- **Default Exports** — Single export with `export default`
-- **Named Exports** — Multiple exports with `export function`
-- **Named Imports** — Importing specific exports
-- **Default Imports** — Importing default exports
-- **Export & Import** — Complete ES6 module system
+### OOP — Object Oriented Programming
+- **Classes & Objects** — Constructor, methods, properties, real-world browser class
+- **Static Members** — Static properties & methods
+- **Private/Public** — Access modifiers, encapsulation patterns
+- **Inheritance** — Single, multi-level, hierarchical inheritance
+- **Method Overriding** — Polymorphism through method overriding
+- **Encapsulation** — Getters/setters, data hiding, bank/car examples
+- **Page Object Model** — POM-like inheritance patterns
+
+### TypeScript
+- **Setup** — TypeScript configuration with `tsconfig.json`
+- **Types** — Basic types, type annotations
+- **Interfaces** — Defining and implementing interfaces
+- **IQ Questions** — TypeScript interview challenges
 
 ### Playwright
 - **Setup** — npm project with Playwright dependency
@@ -387,16 +403,77 @@ npm install
 | `165_Async_await.js` | Async/Await | Done |
 | `166_AA_P.js` | Async/Await Practice | Done |
 
-### chapter_20_TypeScript_Basics — ES6 Modules
+### chapter_20_OOPS — OOP Basics (ES6 Modules)
 
 | File | Topic | Status |
 |------|-------|--------|
-| `168_Export_Import.js` | Export & Import | Done |
-| `169_utils.js` | Utils with Default Export | Done |
-| `170_Logger.js` | Import Default & Named Exports | Done |
+| `01_Export_Import/168_Export_Import.js` | Export & Import | Done |
+| `01_Export_Import/169_utils.js` | Utils with Default Export | Done |
+| `01_Export_Import/170_Logger.js` | Import Default & Named Exports | Done |
 | `logger.js` | Default & Named Exports | Done |
 | `testutils.js` | Utils with Named Export | Done |
 | `utils.js` | Utils with Named Export | Done |
+
+### Chapter_21_Class_Object — Classes & Objects
+
+| File | Topic | Status |
+|------|-------|--------|
+| `171_Class_object.js` | Class Basics | Done |
+| `172_Class_Object_P2.js` | Class Part 2 | Done |
+| `173_Car_class.js` | Car Class | Done |
+| `174_Real_Browser.js` | Real-world Browser Class | Done |
+| `175_IQ.js` | Class IQ | Done |
+| `176_Private_Public.js` | Private & Public | Done |
+| `177_Static.js` | Static Members | Done |
+| `178_static2.js` | Static Part 2 | Done |
+
+### Chapter_22_Inheritance — Inheritance
+
+| File | Topic | Status |
+|------|-------|--------|
+| `183_SingleInheritance.js` | Single Inheritance | Done |
+| `184_Aniamal_Inheritance.js` | Animal Inheritance | Done |
+| `185_Single_inheritane_cont.js` | Inheritance Continued | Done |
+| `186_IQ.js` | Inheritance IQ 1 | Done |
+| `187_IQ2.js` | Inheritance IQ 2 | Done |
+| `188_pageobjectmodel.js` | Page Object Model | Done |
+| `189_MultipleInheitance.js` | Multiple Inheritance | Done |
+| `190_Mutillevelinheritance.js` | Multi-level Inheritance | Done |
+| `191_Hirarichal_inheritance.js` | Hierarchical Inheritance | Done |
+| `IQ5.js` | Inheritance IQ 3 | Done |
+
+### 24_Encapsulation — Encapsulation
+
+| File | Topic | Status |
+|------|-------|--------|
+| `179_Enccapsulation.js` | Encapsulation Basics | Done |
+| `180_EncapP2.js` | Encapsulation Part 2 | Done |
+| `181_Encap_Car.js` | Encapsulation — Car | Done |
+| `182_Ecap_Bankk.js` | Encapsulation — Bank | Done |
+| `chapter_23_IQ/Ex1.js` | Encapsulation IQ 1 | Done |
+| `chapter_23_IQ/EX2.js` | Encapsulation IQ 2 | Done |
+| `chapter_23_IQ/EX3.js` | Encapsulation IQ 3 | Done |
+| `chapter_23_IQ/Ex4.js` | Encapsulation IQ 4 | Done |
+
+### Chapter_25_Polymorphism — Polymorphism
+
+| File | Topic | Status |
+|------|-------|--------|
+| `192_Methos_Overriding.js` | Method Overriding | Done |
+
+### chapter_26_Typscript — TypeScript
+
+| File | Topic | Status |
+|------|-------|--------|
+| `193_ts.js` | TypeScript Intro | Done |
+| `194_TS_Hellowrold.ts` | Hello World | Done |
+| `195_TsPart1.ts` | TypeScript Part 1 | Done |
+| `196_TS_Part2.ts` | TypeScript Part 2 | Done |
+| `197_TS_Part3.ts` | TypeScript Part 3 | Done |
+| `198_TS_Part3.ts` | TypeScript Part 4 | Done |
+| `199_IQ.ts` | TypeScript IQ 1 | Done |
+| `200_IQ.ts` | TypeScript IQ 2 | Done |
+| `201_IF.ts` | Interface | Done |
 
 ### IQ_TestIQA — Interview Questions
 
