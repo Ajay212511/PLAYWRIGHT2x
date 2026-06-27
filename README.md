@@ -58,6 +58,7 @@ PLAYWRIGHT2x/
 ├── chapter_26_Typscript/          # TypeScript basics & types
 ├── IQ_TestIQA/                    # Interview questions & test simulations
 ├── string_cheat_sheet.md          # Python string methods reference
+├── js_cheat_sheet.md              # JavaScript cheat sheet (all topics)
 ├── tsconfig.json                  # TypeScript configuration
 └── README.md                      # This file
 ```
@@ -494,6 +495,7 @@ npm install
 | File | Topic | Status |
 |------|-------|--------|
 | `string_cheat_sheet.md` | Python String Methods Reference | Done |
+| `js_cheat_sheet.md` | JavaScript Cheat Sheet (all topics) | Done |
 
 ## Author
 
