@@ -11,14 +11,14 @@ let userID:number;
 
 //Function annotations
 
-function grret(name:string):string{
+function greet(name:string):string{
     return `Hello,${name}`;
 }
 
 //Arrow Function Annotations
 const multiply =(a:number,b:number):number =>a* b ;
 
-//Onject Annotations
+//Object Annotations
 
 let user :{name:string,age:number}={
     name:"john",

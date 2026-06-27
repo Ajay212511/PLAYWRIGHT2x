@@ -474,6 +474,9 @@ npm install
 | `199_IQ.ts` | TypeScript IQ 1 | Done |
 | `200_IQ.ts` | TypeScript IQ 2 | Done |
 | `201_IF.ts` | Interface | Done |
+| `202_InterfacrPart2.ts` | Interface Part 2 (Optional Params) | Done |
+| `203_Interface_readOnly.ts` | Interface ReadOnly | Done |
+| `204_Interface_ReadyonlyP2.ts` | Interface ReadOnly Part 2 | Done |
 
 ### IQ_TestIQA — Interview Questions
 
